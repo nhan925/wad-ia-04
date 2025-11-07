@@ -5,6 +5,7 @@ import path from "path"
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/wad-ia-04/',
   plugins: [
     react(),
     tailwindcss(),
