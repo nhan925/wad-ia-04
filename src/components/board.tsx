@@ -63,11 +63,13 @@ export function Board({ xIsNext, squares, onPlay }: BoardProps) {
 
     return (
         <>
-            <Alert className="mb-4">
+            {/* Status Alert */}
+            <Alert className="mb-3 md:mb-4">
                 {status}
             </Alert>
 
-            <div className="aspect-square grid grid-cols-1 grid-rows-3 w-full divide-y border-3 bg-white/15 rounded-xl shadow-md backdrop-blur-md">
+            {/* Game Board */}
+            <div className="aspect-square grid grid-cols-1 grid-rows-3 w-full divide-y border-2 md:border-3 bg-white/15 rounded-xl shadow-md backdrop-blur-md overflow-hidden">
             {
                 Array.from({ length: 3 }, (_, row) => (
                     <div key={row} className="grid grid-cols-3 grid-rows-1 divide-x">

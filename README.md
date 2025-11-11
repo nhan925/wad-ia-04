@@ -11,8 +11,16 @@ An interactive, feature-rich Tic-Tac-Toe game built with React, TypeScript, and 
 - **🔁 Reset Game**: Start a fresh game anytime with one click
 - **🌓 Theme Toggle**: Switch between light and dark modes with persistent preference
 - **🎨 Modern UI**: Beautiful glassmorphism design with smooth animations
-- **📱 Responsive**: Works seamlessly on desktop and mobile devices
-- **♿ Accessible**: Proper ARIA labels and keyboard navigation
+- **📱 Fully Responsive**: 
+  - Optimized for all screen sizes (mobile, tablet, desktop)
+  - Touch-friendly buttons with proper hit areas
+  - Adaptive font sizes and spacing
+  - Flexible layout that adjusts to portrait/landscape
+- **♿ Accessible**: 
+  - Proper ARIA labels and roles
+  - Keyboard navigation support
+  - Disabled state for filled squares
+  - Focus indicators
 
 ## 🚀 Tech Stack
 

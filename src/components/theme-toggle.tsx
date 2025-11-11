@@ -10,13 +10,13 @@ export function ThemeToggle() {
             onClick={toggleTheme}
             variant="outline"
             size="icon"
-            className="fixed top-4 right-4 z-50"
+            className="fixed top-3 right-3 md:top-4 md:right-4 z-50 size-9 md:size-10"
             aria-label="Toggle theme"
         >
             {theme === 'light' ? (
-                <Moon className="size-5" />
+                <Moon className="size-4 md:size-5" />
             ) : (
-                <Sun className="size-5" />
+                <Sun className="size-4 md:size-5" />
             )}
         </Button>
     );
